@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="eng" dir="ltr">,
+     <head>
+        <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    This is the first page...
+
+    <form action="{% url 'result' %}"> <!--whenever someone submits this form, he will be redirected to 'result.html'   -->
+
+<!--form for text input (input data for user)-->
+
+<!-- we have 9 features in a form of numbers (got them after using IncrementalPCA)-->
+
+
+      First_Attribute: <input type="text" required name="First_Attribute"> <br> <br>
+      Second_Attribute: <input type="text" required name="Second_Attribute"> <br> <br>
+      Third_Attribute: <input type="text" required name="Third_Attribute"> <br> <br>
+      Fourth_Attribute: <input type="text" required name="Fourth_Attribute"> <br> <br>
+      Fifth_Attribute: <input type="text" required name="Fifth_Attribute"> <br> <br>
+      Sixth_Attribute: <input type="text" required name="Sixth_Attribute"> <br> <br>
+      Seventh_Attribute: <input type="text" required name="Seventh_Attribute"> <br> <br>
+      Eighth_Attribute: <input type="text" required name="Eighth_Attribute"> <br> <br>
+      Ninth_Attribute: <input type="text" required name="Ninth_Attribute"> <br> <br>
+
+    <input type="submit" name="" value="Predict">
+
+    </form>
+
+
+
+  </body>
+</html>
