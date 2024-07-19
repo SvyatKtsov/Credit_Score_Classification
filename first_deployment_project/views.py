@@ -12,7 +12,7 @@ def home(request):
 
 # view (form) for  model's prediction result
 def result(request):
-    model = joblib.load('Credit_Score_Classification_model.sav')   
+    model = joblib.load(r'D:/random_py_projects/_ML_/All_models_saved_large_files/Credit_Score_Classification_model.sav')   
 
     lst = []
     lst.append(request.GET['First_Attribute'])
