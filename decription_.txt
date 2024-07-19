@@ -1,1 +1,4 @@
-h.
+This is a beginner project dedicated to cleaning, preprocessing and feature-engineering some dataset, as well as building and deploying an ML model using Sklearn and Django.
+The project can be used by anyone for any purposes.
+
+*Note: path to files will be different from the orignal ones.
